@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/Logo.png" />
+    <title>Soluciones PHP PRO</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="container-fluid">
+      <!-- BARRA DE NAVEGACIÓN (MENU)  -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: rgba(155, 157, 169, 0.913)"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo"
+              src="img/Logo_Horizontal.png"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link1 active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="#phppro">Empresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="#SGCP">Sistema</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="#equipo">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="#contacto">Contáctenos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CARRUSEL DE IMAGENES  -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+            class="indicador"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="indicador"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="indicador"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="slider 4"
+            class="indicador"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Banner_PHP_SG.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner_PHP_gps.png" class="d-block w-100" alt="..." />
+            <!--  <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner_SG_azul.png" class="d-block w-100" alt="..." />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="img/Banner_SG_mitad.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+
+
+      <!-- APP SGCP  -->
+      <section id="SGCP">
+        <div class="container-fluid SGCP" style="text-align: center;">
+          <img src="img/logo_sgcp_blanco.png" width="10%" style="padding-bottom: 10px;" />
+          <div style="background-color: #9cd6f1;padding:20px">
+            <h3>
+              SISTEMA DE GESTIÓN Y CONTROL DE PERMISOS
+            </h3>
+
+            <p style="text-align: center;font-family: Courgette, cursive;">
+              SGCP Un sistema Web de gestión y control de permisos, desarrollado en PHP, esta aplicaicón fue diseñada para ayudar a las empresas u organizaciones a gestionar y supervisar los permisos de sus empleados de manera eficiente y efectiva. Aquí tienes una descripción detallada de sus características principales         
+            </p>
+            <ul style="text-align: left;">
+              <li><b>Atenticación de Empleados:</b> Los empleados contarán con un usuario y contraseña para ingresar a la aplicaicón.</li><br>
+              <li><b>Registro de Empleados:</b> El sistema contendría un registro completo de todos los empleados de la organización, incluyendo información relevante como nombres, departamentos y perfiles.</li><br>
+              <li><b>Registro de Permisos:</b> Permite a los empleados registrar sus permisos, ya sean por cita médica, permisos personales, permisos familiares u otras formas de permisos. 
+                Los empleados pueden ingresar la fecha de ausencia, así como la hora de inicio y fin de la misma, además el motivo correspondiente.</li><br>
+              <li><b>Aprobación de Permisos:</b>  Los supervisores o administradores tienen la capacidad de revisar y aprobar las solicitudes de ausencia de los empleados.</li>
+            </ul>
+        </div>
+        <div class="demo" style="padding:20px">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GEKh7yy7v_s?si=mwSDuDZju1Lol7rF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+        </section>
+
+
+      <!-- INFORMACIÓN EMPRESARIAL  -->
+      <section id="phppro">
+      <div class="container-fluid phppro">
+        <h3>
+          <img src="img/Logo.png" width="3%" /> | ¿QUE ES SOLUCIONES PHP PRO?
+        </h3>
+        <p style="text-align: center">
+          Soluciones PHP Pro, es una compañia que en un mundo donde la
+          tecnología avanza a pasos agigantados, se alza como un faro de
+          innovación y excelencia en el vasto océano del desarrollo web y la
+          programación. Fundada por un grupo de apasionados de estudiantes de
+          ingeniería de Sistemas de la <b>CUL</b>, con una visión clara de
+          simplificar la complejidad del desarrollo web, Solucione PHP Pro se ha
+          convertido en un referente en la industria.
+        </p>
+        <h6 style="text-align: center">
+          Aquí tienes algunas razones por las que la gente debería considerar a
+          Soluciones PHP Pro para sus necesidades de desarrollo web:
+        </h6>
+        <br />
+
+        <div class="empresa">
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/experiencia.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Experiencia y Expertise</h5>
+              <p class="card-text">
+                Soluciones PHP Pro cuenta con un equipo de desarrolladores
+                altamente experimentados y expertos en PHP, lo que garantiza
+                soluciones de alta calidad y eficientes para tus proyectos web.
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/personalizacion.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Personalización</h5>
+              <p class="card-text">
+                Entendemos que cada proyecto es único y tiene requisitos
+                específicos. Nos comprometemos a ofrecer soluciones
+                personalizadas que se adapten perfectamente a las necesidades de
+                tu negocio o proyecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/soporte.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Soporte Continuo</h5>
+              <p class="card-text">
+                Nuestro compromiso no termina con la entrega del proyecto.
+                Estamos aquí para proporcionar soporte continuo y resolver
+                cualquier problema que pueda surgir después de la
+                implementación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid phppro">
+        <div class="empresa">
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/calidad.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Calidad y Eficiencia</h5>
+              <p class="card-text">
+                Nos esforzamos por ofrecer productos y servicios de alta calidad
+                en tiempo y forma. Nuestro enfoque en la eficiencia nos permite
+                cumplir con los plazos de entrega sin comprometer la calidad del
+                trabajo.
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/comunicacion.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Comunicación</h5>
+              <p class="card-text">
+                Mantenemos una comunicación abierta y transparente con nuestros
+                clientes en todas las etapas del proyecto. Nos aseguramos de que
+                estés informado y satisfecho con el progreso y los resultados.
+              </p>
+              <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+            </div>
+          </div>
+
+          <div class="card text-white bg-secondary" style="width: 20rem">
+            <img src="img/tecnologia.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tecnología Avanzada</h5>
+              <p class="card-text">
+                Estamos al tanto de las últimas tendencias y tecnologías en el
+                desarrollo web. Utilizamos herramientas y frameworks de
+                vanguardia para garantizar que tu proyecto esté a la vanguardia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- NUESTRO EQUIPO  -->
+    <section id="equipo">
+      <div class="container-fluid equipo">
+        <h3>
+          <img src="img/Logo.png" width="3%" /> | NUESTRO EQUIPO DE TRABAJO
+        </h3>
+        <br />
+        <div class="integrantes">
+          <div class="card-int text-white">
+            <img src="img/richard.JPG" class="card-img" alt="..." />
+            <div class="card-body1 text-white bg-dark">
+              <h5 class="card-title">CEO</h5>
+              <p class="card-text">
+                Magister en Desarrollo Web y APP, mi enfoque principal es
+                liderar la visión estratégica de Soluciones PHP PRO y asegurar
+                su éxito a largo plazo y que los clientes queden satisfechos.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary">
+              <small>Richard Arroyo Galindo</small>
+            </div>
+          </div>
+
+          <div class="card-int text-white">
+            <img src="img/andres.jpg" class="card-img" alt="..." />
+            <div class="card-body1 text-white bg-dark">
+              <h5 class="card-title">Gerente de Proyectos</h5>
+              <p class="card-text">
+                Dr. en Gerencia de Proyectos, Superviso y gestiono a un equipo
+                diverso de profesionales, incluyendo desarrolladores web,
+                diseñadores, especialistas en marketing, y otros.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary">
+              <small>Andres Gonzalez Garcia</small>
+            </div>
+          </div>
+
+          <div class="card-int text-white">
+            <img src="img/jenifer.jpg" class="card-img" alt="..." />
+            <div class="card-body1 text-white bg-dark">
+              <h5 class="card-title">Diseñador Web</h5>
+              <p class="card-text">
+                Creo interfaces visuales atractivas y funcionales, desarrollo la
+                apariencia visual de los sitios web y aplicaciones, incluyendo
+                el diseño de páginas, botones, menús, y otros elementos.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary">
+              <small>Jenifer Barraza Madiedo</small>
+            </div>
+          </div>
+          <div class="card-int text-white">
+            <img src="img/daniel.jpg" class="card-img" alt="..." />
+            <div class="card-body1 text-white bg-dark">
+              <h5 class="card-title">Desarrollador Web</h5>
+              <p class="card-text">
+                Creo y mantenego aplicaciones y sitios web funcionales, me
+                aseguro que los sitios web y aplicaciones que desarrollo sean
+                compatibles con una variedad de dispositivos y tamaños de
+                pantalla.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary">
+              <small>Daniel Lerma Anaya</small>
+            </div>
+          </div>
+        </div> 
+      </div>
+   <section>
+
+
+  <!-- FORMULARIO DE CONTACTO  -->
+     <section  class="contacto" id="contacto">
+      <div class="container-fluid" style="text-align: center;">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3>
+                <img src="img/Logo.png" width="3%" /> | CONTÁCTENOS
+              </h3>
+              <hr class="bg-dark">
+            </div>
+          </div>
+
+          <div class="row" style="padding:0rem 20rem;">
+            <div class="col-sm-12 col-lg-offset-2">
+              <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+              <form name="sentMessage" id="contactForm" novalidate>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                
+                    <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor, ingrese su name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                  
+                    <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, ingrese su email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-5 floating-label-form-group controls">
+                    <input type="tel" class="form-control" placeholder="Número de teléfono" id="phone" required data-validation-required-message="Por favor, ingrese su número de teléfono.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor, ingrese un mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <br>
+                <div id="success" class="justify-content-end"></div>
+                <div class="row">
+                  <div class="form-group col-xs-12">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        
+        <div style="background-color: rgba(155, 157, 169, 0.913);color:#fff;text-align: center;">
+          <br>
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo"
+              src="img/Logo_Horizontal.png"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo_sgcp"
+              src="img/Logo_SGCP_trans.png"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          
+          <br>
+      </div>
+      
+        <div class="bg-dark text-white" style="text-align:center;">
+    
+          <p style="padding-top: 2px;padding-bottom: 1px;">Facultad de ingeniería de sistema | Derechos de autor: Richard Arroyo Galindo - Andres Gonzalez Garcia | 2024 </p>
+   
+        </div>
+      </footer>
+     
+    </div>
+  </body>
+</html>

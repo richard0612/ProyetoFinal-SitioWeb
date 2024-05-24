@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+:root{
+    --color-titulo:#144D6B;
+    --color-blanco:#ffffff;
+}
+
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .viga-regular {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merienda {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo{
+    height: 25%;
+    width: 25%;
+}
+
+.nav-item{
+    gap:2rem;
+}
+
+.nav-link1{
+    text-decoration: none;
+    color:var(--color-titulo);
+    padding: 1rem;
+    font-weight: bold;
+   
+}
+
+.nav-link1:hover{
+    color:var(--color-blanco);
+    font-size: large;
+}
+
+.indicador{
+    color:#000000;
+}
+
+.phppro{
+    padding:3rem 5rem;
+    background-color: #c7c7c7;
+}
+
+h3{
+    text-align: center;
+    color:var(--color-titulo);
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.empresa{
+    display: flex;
+    gap:5rem;
+    justify-content: center;
+}
+
+.demo{
+    width: 100%;
+
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.card-title{
+    text-align: center;
+    color:#9cd6f1;
+}
+
+
+.card-text{
+    text-align: center;
+}
+
+.card{
+    border:3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px var(--color-titulo);
+    justify-content: center;
+} 
+
+.equipo{    
+    padding:3rem 5rem;
+    background-color:#dbdbdb;
+}
+
+.integrantes{
+    display: flex;
+    gap:5rem;
+    text-align: center;
+}
+
+.card-int{
+    width: 25rem;   
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    align-content: center;  
+    padding: 0.5rem;
+    box-shadow: 10px 0px 0px #000000;
+}
+
+
+.card-body1{
+    box-shadow: 10px 10px 10px #9cd6f1;
+}
+.card-footer{
+    box-shadow: 10px 10px 10px #9cd6f1;
+
+}
+
+.contacto{
+    background-color: #e2e0e0;
+    padding:3rem 5rem;
+    
+}
+
+.footer{
+    background-color: #c7c7c7;
+    display: flex;
+    padding:3rem 5rem;
+  
+    
+}
+
+.logo_sgcp{
+    width: 180px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.SGCP{
+    padding:3rem 5rem;
+    background-color:#dbdbdb;
+   
+
+}
+
+
+
